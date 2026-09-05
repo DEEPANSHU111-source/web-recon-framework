@@ -1,0 +1,55 @@
+# Reconnaissance output
+
+recon/
+results/
+output/
+reports/
+
+# Logs
+
+*.log
+
+# Temporary files
+
+*.tmp
+*.temp
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Python
+
+**pycache**/
+*.pyc
+*.pyo
+
+# Virtual environments
+
+venv/
+.venv/
+
+# IDE files
+
+.vscode/
+.idea/
+
+# Environment / secrets
+
+.env
+.env.*
+*.key
+*.pem
+*.token
+*.secret
+
+# Local configuration
+
+config.local.*
+
+# Personal testing files
+
+private/
+personal/
+targets-private/
