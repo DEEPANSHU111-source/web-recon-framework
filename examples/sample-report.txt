@@ -1,8 +1,8 @@
 
 16:41:17 ============================================================
 16:41:17 [+] Starting reconnaissance
-16:41:17 [+] Target: owasp.org
-16:41:17 [+] Output: /home/kali/owasp-recon
+16:41:17 [+] Target: example.com
+16:41:17 [+] Output: /home/kali/example-recon
 16:41:17 ============================================================
 16:41:18 [+] ProjectDiscovery HTTPX: /home/kali/go/bin/httpx
 16:41:18 [1/10] Subdomain enumeration...
@@ -35,10 +35,10 @@
 17:53:29 ============================================================
 17:53:29 [+] RECON COMPLETED
 17:53:29 ============================================================
-17:53:29 [+] Target              : owasp.org
-17:53:29 [+] Report              : /home/kali/owasp-recon/owasp-recon-report.txt
-17:53:29 [+] Output directory    : /home/kali/owasp-recon
-17:53:29 [+] Log                 : /home/kali/owasp-recon/owasp-recon.log
+17:53:29 [+] Target              : example.com
+17:53:29 [+] Report              : /home/kali/example-recon/example-recon-report.txt
+17:53:29 [+] Output directory    : /home/kali/example-recon
+17:53:29 [+] Log                 : /home/kali/example-recon/example-recon.log
 17:53:29 
 17:53:29 [+] Files created:
 17:53:29     01-subdomains.txt
@@ -54,7 +54,7 @@
 17:53:29     11-secretfinder-potential.txt
 17:53:29     12-gf.txt
 17:53:29     13-arjun.txt
-17:53:29     owasp-recon-report.txt
+17:53:29     example-recon-report.txt
 17:53:29 
 17:53:29 [+] The final report contains automated results.
 17:53:29 [+] Potential findings require manual validation.
