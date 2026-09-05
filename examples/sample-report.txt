@@ -1,0 +1,60 @@
+
+16:41:17 ============================================================
+16:41:17 [+] Starting reconnaissance
+16:41:17 [+] Target: owasp.org
+16:41:17 [+] Output: /home/kali/owasp-recon
+16:41:17 ============================================================
+16:41:18 [+] ProjectDiscovery HTTPX: /home/kali/go/bin/httpx
+16:41:18 [1/10] Subdomain enumeration...
+16:50:22 [+] Subdomains discovered: 69
+16:50:22 [2/10] DNS resolution...
+16:50:25 [+] DNS results: 116
+16:50:25 [3/10] HTTP probing with ProjectDiscovery HTTPX...
+16:50:47 [+] Live HTTP/HTTPS hosts: 53
+16:50:47 [4/10] Crawling in-scope websites with Katana...
+17:38:42 [+] In-scope Katana URLs: 37083
+17:38:42 [5/10] Collecting historical URLs with GAU...
+17:41:42 [WARN] GAU timed out or returned an error.
+17:41:46 [+] In-scope GAU URLs: 1679
+17:41:46 [6/10] Collecting Wayback URLs...
+17:44:47 [+] In-scope Wayback URLs: 13398
+17:44:47 [7/10] Merging and deduplicating URLs...
+17:44:47 [+] Total unique in-scope URLs: 51636
+17:44:47 [8/10] Extracting JavaScript URLs...
+17:44:47 [+] JavaScript URLs: 2392
+17:44:47 [+] Running LinkFinder...
+17:45:00 [+] LinkFinder results: 0
+17:45:00 [9/10] Running limited SecretFinder analysis...
+17:50:29 [+] Potential SecretFinder matches: 5593
+17:50:29 [+] Running GF parameter/vulnerability pattern matching...
+17:50:29 [+] GF candidate URLs: 16232
+17:50:29 [10/10] Parameter discovery with Arjun...
+17:53:29 [+] Arjun results: 0
+17:53:29 [+] Building final report...
+17:53:29 
+17:53:29 ============================================================
+17:53:29 [+] RECON COMPLETED
+17:53:29 ============================================================
+17:53:29 [+] Target              : owasp.org
+17:53:29 [+] Report              : /home/kali/owasp-recon/owasp-recon-report.txt
+17:53:29 [+] Output directory    : /home/kali/owasp-recon
+17:53:29 [+] Log                 : /home/kali/owasp-recon/owasp-recon.log
+17:53:29 
+17:53:29 [+] Files created:
+17:53:29     01-subdomains.txt
+17:53:29     02-dns.txt
+17:53:29     03-httpx.txt
+17:53:29     04-live-urls.txt
+17:53:29     05-katana.txt
+17:53:29     06-gau.txt
+17:53:29     07-wayback.txt
+17:53:29     08-all-urls.txt
+17:53:29     09-js.txt
+17:53:29     10-linkfinder.txt
+17:53:29     11-secretfinder-potential.txt
+17:53:29     12-gf.txt
+17:53:29     13-arjun.txt
+17:53:29     owasp-recon-report.txt
+17:53:29 
+17:53:29 [+] The final report contains automated results.
+17:53:29 [+] Potential findings require manual validation.
